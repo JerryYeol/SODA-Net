@@ -128,9 +128,6 @@ python MVCNet_LOSO.py GPU_ID λ_CVC λ_CMC λ_channel λ_temporal λ_subject λ_
 |----------|-------------|---------|-------|
 | `λ_CVC` | Cross-view contrastive loss weight | 0.1 | [0.01, 1.0] |
 | `λ_CMC` | Cross-modal contrastive loss weight | 0.1 | [0.01, 1.0] |
-| `λ_channel` | Channel-level contrastive weight | 0.0 | [0.0, 0.5] |
-| `λ_temporal` | Temporal-level contrastive weight | 0.0 | [0.0, 0.5] |
-| `λ_subject` | Subject-level contrastive weight | 0.0 | [0.0, 0.5] |
 
 ### Inference
 
